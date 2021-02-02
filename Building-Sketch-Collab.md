@@ -18,7 +18,7 @@ Here are the steps to do it:
 
  - Once you've done that, download the `google-services.json`. This file is super important, never share it to anybody.
  - After that, move that `google-services.json` file to the `app/` directory of sk-collab.
- - Then you can skip the next step and the next next step too.
+ - Then you can skip the next step and the next next step too. (In the app setup page, not this :l)
 
  - After adding your app to your firebase project, you can go to the `Authentication` page, click the enable button (If you haven't already), click on Sign-In Method, and enable Email sign-in.
  - Now, let's set up the database, first, click on Firebase Firestore, click enable in it, and you can do some setups with it.
