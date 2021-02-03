@@ -11,7 +11,7 @@ _(If you asked something in the issues page, I'll add that question and the answ
 <details>
  <summary>View question...</summary>
  
- Project IDs can change over time, making making you change the reference to the project manually. But, SketchCollab's approach is different. With our approach, it doesn't matter if the ID gets changed or if the project is removed. SketchCollab stores project keys and project information inside `mysc/list/{project_id}/project`. If the project ID is modified, these keys stay the same. When you upload a SketchCollab project, these keys will still be there unless you remove them.
+ Project IDs can change over time, making you change the reference to the project manually. But, SketchCollab's approach is different. With our approach, it doesn't matter if the ID gets changed or if the project is removed. SketchCollab stores project keys and project information inside `mysc/list/{project_id}/project`. If the project ID is modified, these keys stay the same. When you upload a SketchCollab project, these keys will still be there unless you remove them.
 
 Here is the [code snippet](https://github.com/Iyxan23/sk-collab/blob/main/app/src/main/java/com/iyxan23/sketch/collab/online/UploadActivity.java#L134-L147) applying those custom keys.
 </details>
